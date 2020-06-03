@@ -49,19 +49,21 @@ Polycase
 
 - [1 System Description](#heading)
   * [1.1 Temperature, Humidity and CO2 Sensors](#sub-heading)
-  * [1.2 Ultra-Low Power Wireless Microcontroller (MCU)](#sub-heading)
-  * [1.3 Nano-Power System Timer](#sub-heading)
-  * [1.4 DC-DC Boost Converter](#sub-heading)
-  * [1.5 Low-Leakage Load Switch](#sub-heading)
-  * [1.6 IFA Antenna](#sub-heading)
-  * [1.7 Power Methods](#sub-heading)
+  * [1.2 Ultra-Low Power Wireless Microcontroller (MCU)](#sub-heading-1)
+  * [1.3 Nano-Power System Timer](#sub-heading-2)
+  * [1.4 DC-DC Boost Converter](#sub-heading-3)
+  * [1.5 Low-Leakage Load Switch](#sub-heading-4)
+  * [1.6 IFA Antenna](#sub-heading-5)
+  * [1.7 Power Methods](#sub-heading-6)
     
-- [System Design Theory and Considerations](#heading-1)
-  * [Sub-heading](#sub-heading-1)
+- [2 System Design Theory and Considerations](#heading-1)
+  * [Sub-heading](#sub-heading-7)
     + [Sub-sub-heading](#sub-sub-heading-1)
-- [Hardware Versions](#heading-2)
-  * [Sub-heading](#sub-heading-2)
+- [3 Hardware Versions](#heading-2)
+  * [Sub-heading](#sub-heading-8)
     + [Sub-sub-heading](#sub-sub-heading-2)
+
+<!-- toc -->
 
 ## **1 System Description**
 
