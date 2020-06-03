@@ -48,7 +48,7 @@ Polycase
 
 # Table of Contents
 
-# Table of Contents
+[toc]
 
 
 [System Description](#section-1)
