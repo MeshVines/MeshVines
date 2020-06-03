@@ -50,88 +50,13 @@ Polycase
 
 # Table of Contents
 
-**[Table of Contents](#_bqwg5a180l7e) 2**
-
-**[1 System Description](#_v47b8lscjgvd) 4**
-
-[1.1 Temperature, Humidity and CO2 Sensors](#_u7z4s9c2k24p) 4
-
-[1.2 Ultra-Low Power Wireless Microcontroller (MCU)](#_f2d0v3vtkd2i) 5
-
-[1.3 Nano-Power System Timer](#_pxxk28d5r6zc) 6
-
-[1.4 Boost Converter](#_1vvmb7l45ie) 7
-
-[1.5 Low-Leakage Load Switch](#_6idbwnv2cdc2) 8
-
-[1.6 IFA Antenna](#_92cnit3l6io2) 8
-
-[1.7 Power Methods](#_iae6uem3ys1i) 9
-
-**[2 System Design Theory and Considerations](#_5v2dfx3az1r7) 10**
-
-[2.1 Duty-Cycled Power Calculations](#_sdwakkq3l7rs) 11
-
-[2.2 Firmware](#_ldakdu91hls0) 11
-
-[2.3 Zigbee Network](#_x0zmup1763kg) 12
-
-[2.4 Zigbee Gateway](#_3kamdmnngyhn) 13
-
-[2.5 Antenna Design](#_s78utcrihxjy) 15
-
-**[3 Hardware Versions](#_3vgfs99lqnc3) 16**
-
-[3.1 Hardware Overview](#_qh9f6ylnn8zb) 16
-
-[3.1.1 MeshVines\_RE\_THC\_WB1000](#_jecwgsq5791z) 17
-
-[3.1.2 MeshVines\_RE\_TH\_WB220](#_sc7fgbdgtdoc) 18
-
-[3.1.3 MeshVines\_C\_W](#_q14xw2dwpl7h) 19
-
-[3.1.4 MeshVines\_R\_TH\_WB5200](#_8b83c3lqrrmj) 20
-
-**[4 Implementation Results and Characterization](#_u0wwsx6isncb) 21**
-
-[4.1 Jess S Jackson Sustainable Winery Building Results](#_85fqmgpxqldv) 21
-
-[4.1.1 Node Placement](#_6hhwcknfhb25) 22
-
-[4.1.2 Recorded Data](#_dcot728w6pmo) 23
-
-[4.2 Apartment Building Results](#_cdf2j19j70zv) 25
-
-[4.2.1 Node Placement](#_ckfjzyiclygw) 25
-
-[4.2.2 Recorded Data](#_7hjeuekw21bv) 26
-
-[4.3 Power Consumption](#_i33cvs9y0aga) 27
-
-[4.3.1 On-State Power Characterization](#_2yknireuwo78) 27
-
-[4.3.2 Off-State Power Characterization](#_mort9sz85mlf) 27
-
-[4.3.3 Estimated Battery Life Calculations](#_odfz272gojfb) 27
-
-[4.4 Verification of Mesh Network](#_b3ag3b21ymd) 28
-
-[4.5 Cost Analysis](#_s9w0w6awmlvw) 28
-
-**[5 Conclusion](#_3wlgcwfz1aef) 29**
-
-**[6 Team Members](#_y66gwplzxo8y) 29**
-
-**[7 Acknowledgements](#_xbvj2byctai2) 29**
-
-**[8 References](#_50zl4iwk749e) 30**
 
 [System Description](#section-1)
 
 Temperature, humidity and CO2 are important parameters for wineries to monitor. Temperature provides important feedback on the health of the building's HVAC systems, while humidity is directly correlated to evaporation of wine as it ages in barrell rooms.  By both monitoring and controlling for humidity, this loss of wine, and ultimately revenue, can be minimized.  Additionally, during the fermentation of wine, sugar in juice is converted to alcohol and CO2 is produced as a byproduct.  Since it is denser than air, CO2 can linger in pockets of a building and poses a serious health risk to employees.  Current measurement systems often consist of a single sensor or a hand-held device that requires an employee to manually walk around to check CO2 levels.  This project provides a cost-effective solution for wineries to monitor these parameters with a high temporal and spatial resolution. 
 
 ## **1.1	Temperature, Humidity and CO2 Sensors**
-
+[**1.1	Temperature, Humidity and CO2 Sensors**](#subsection-a)
 ![image alt text](images/image_1.jpg)
 
 Fig 1. HDC1080 Block Diagram
