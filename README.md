@@ -63,12 +63,11 @@ Polycase
   * [Sub-heading](#sub-heading-2)
     + [Sub-sub-heading](#sub-sub-heading-2)
 
-[System Description](#section-1)
+## **1 System Description**
 
 Temperature, humidity and CO2 are important parameters for wineries to monitor. Temperature provides important feedback on the health of the building's HVAC systems, while humidity is directly correlated to evaporation of wine as it ages in barrell rooms.  By both monitoring and controlling for humidity, this loss of wine, and ultimately revenue, can be minimized.  Additionally, during the fermentation of wine, sugar in juice is converted to alcohol and CO2 is produced as a byproduct.  Since it is denser than air, CO2 can linger in pockets of a building and poses a serious health risk to employees.  Current measurement systems often consist of a single sensor or a hand-held device that requires an employee to manually walk around to check CO2 levels.  This project provides a cost-effective solution for wineries to monitor these parameters with a high temporal and spatial resolution. 
 
 ## **1.1	Temperature, Humidity and CO2 Sensors**
-[**1.1	Temperature, Humidity and CO2 Sensors**](#subsection-a)
 ![image alt text](images/image_1.jpg)
 
 Fig 1. HDC1080 Block Diagram
