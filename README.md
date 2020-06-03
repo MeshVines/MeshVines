@@ -1,12 +1,12 @@
 ![image alt text](images/image_0.jpg)
 
-#**MeshVines: Zigbee® Temperature, Humidity and CO2 Wireless Sensor Network**
+# **MeshVines: Zigbee® Temperature, Humidity and CO2 Wireless Sensor Network**
 
-##**Project Overview**
+## **Project Overview**
 
 This project represents senior design work of undergraduates in the Electrical Engineering Department at the University of California, Davis.  The goal of this project was to create a Zigbee sensor network to monitor the temperature, humidity and CO2 in a winery. 
 
-##**Main Components**
+## **Main Components**
 
 Texas Instruments
 * CC1352r Wireless MCU
@@ -23,7 +23,7 @@ Polycase
 * SN-22
 * ML-44F
 
-##**Design Features**
+## **Design Features**
 * Battery Life of 23 months
 * 3% Relative Humidity Accuracy
 * Temperature Accuracy
@@ -31,7 +31,7 @@ Polycase
 * Unit cost less than $35 at 30 units
 * Zigbee Mesh Network
 
-#Table of Contents
+# Table of Contents
 - [1 System Description](#-1system-description)
   * [1.1 Temperature, Humidity and CO2 Sensors](#11temperature--humidity-and-co2-sensors)
   * [1.2 Ultra-Low Power Wireless Microcontroller (MCU)](#12ultra-low-power-wireless-microcontroller--mcu-)
