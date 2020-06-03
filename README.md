@@ -47,13 +47,19 @@ Polycase
 * Zigbee Mesh Network
 
 
-- [System Description](#heading)
-  * [Sub-heading](#sub-heading)
-    + [Sub-sub-heading](#sub-sub-heading)
-- [Heading](#heading-1)
+- [1 System Description](#heading)
+  * [1.1 Temperature, Humidity and CO2 Sensors](#sub-heading)
+  * [1.2 Ultra-Low Power Wireless Microcontroller (MCU)](#sub-heading)
+  * [1.3 Nano-Power System Timer](#sub-heading)
+  * [1.4 DC-DC Boost Converter](#sub-heading)
+  * [1.5 Low-Leakage Load Switch](#sub-heading)
+  * [1.6 IFA Antenna](#sub-heading)
+  * [1.7 Power Methods](#sub-heading)
+    
+- [System Design Theory and Considerations](#heading-1)
   * [Sub-heading](#sub-heading-1)
     + [Sub-sub-heading](#sub-sub-heading-1)
-- [Heading](#heading-2)
+- [Hardware Versions](#heading-2)
   * [Sub-heading](#sub-heading-2)
     + [Sub-sub-heading](#sub-sub-heading-2)
 
