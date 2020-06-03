@@ -47,7 +47,7 @@ Polycase
 * Zigbee Mesh Network
 
 - [**1 System Description**](#--1-system-description--)
-  * [**1.1   Temperature, Humidity and CO2 Sensors**](#--11---temperature--humidity-and-co2-sensors--)
+  * [**1.1   Temperature, Humidity and CO2 Sensors**](#11temperature--humidity-and-co2-sensors--)
   * [1.2 Ultra-Low Power Wireless Microcontroller (MCU)](#12-ultra-low-power-wireless-microcontroller--mcu-)
   * [1.3 Nano-Power System Timer](#13-nano-power-system-timer)
   * [1.4 Boost Converter](#14-boost-converter)
@@ -78,12 +78,11 @@ Polycase
     + [4.3.2  Off-State Power Characterization](#432--off-state-power-characterization)
   * [4.3.3   Estimated Battery Life Calculations](#433---estimated-battery-life-calculations)
   * [4.4 Verification of Mesh Network](#44-verification-of-mesh-network)
-  * [4.5 Cost Analysis](#45-cost-analysis)
-- [5    Conclusion](#5----conclusion)
-- [6    Team Members](#6----team-members)
-- [![image alt text](images/image_26.jpg)](#--image-alt-text--images-image-26jpg-)
-- [7    Acknowledgements](#7----acknowledgements)
-- [8    References](#8----references)
+  * [4.5 Cost Analysis](#45cost-analysis)
+- [5    Conclusion](#5conclusion)
+- [6    Team Members](#6team-members)
+- [7    Acknowledgements](#7acknowledgements)
+- [8    References](#8references)
 
 <!-- toc -->
 
