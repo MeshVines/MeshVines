@@ -46,9 +46,8 @@ Polycase
 
 * Zigbee Mesh Network
 
-# Table of Contents
-
-[toc]
+* Table of contents
+[[_TOC_]]
 
 
 [System Description](#section-1)
