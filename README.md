@@ -156,12 +156,9 @@ Software for all Zigbee nodes was developed in Code Composer Studio (CCS).  Node
 ### 2.3	Zigbee Network
 
 ![image alt text](images/image_9.png)
-
-           Figure 8. Typical Zigbee Mesh topology. White circles represent end
-
-           nodes, red circles represent routers, and the black circle 
-
-           represents a coordinator
+Figure 8. Typical Zigbee Mesh topology. White circles represent end
+nodes, red circles represent routers, and the black circle 
+represents a coordinator
 
 Our sensor network takes advantage of Texas Instruments Zigbee Stack (Z-Stack) application. ZigBee is a IEEE 802.15.4 based, low power, low data rate supporting wireless networking standard, typically useful for two-way communication between sensors and control systems. By implementing a zigbee mesh network, we can exploit favorable properties other network designs lack such as a self healing and low powered network. 
 
@@ -192,15 +189,10 @@ Fig 10.  S11: Simulated vs. Measured
 To achieve high performance in a variety of implementation settings, multiple devices were created.  The naming of these these devices is the following:
 
 * MeshVines_ZigbeeActor_MeasurementParameter_PowerInput&mAh
-
     * MeshVines_CoordinatorRouterEnd_TempHumCO2_WallBatteryxxxx
-
         * MeshVines_RE_THC_WB1000
-
         * MeshVines_RE_TH_WB220
-
         * MeshVines_C_W
-
         * MeshVines_R_TH_WB_5200 
 
 ### 3.1	Hardware Overview
@@ -263,25 +255,15 @@ Fig 11. MeshVines_RE_THC_WB1000
 MeshVines_RE_THC_WB1000 is mainly used as an end node in the Zigbee mesh network and can measure temperature, humidity and CO2.
 
 MeshVines_RE_THC_WB1000 has the following features:
-
 * 2 x AAA batteries
-
 * Inverted-F 2.4 GHz PCB trace antenna
-
 * Commission, Clear, and Reset buttons
-
 * Power status LED
-
 * Switch to select the input power supply
-
 * 2 x 5.5 mm barrel connector for 5 V input
-
 * HDC1080 for temperature and humidity measurement
-
 * COZIR 5,000 ppm for CO2 measurement
-
 * Low power architecture for maximizing battery life
-
 * Polycase enclosure SN-29
 
 #### 3.1.2	MeshVines_RE_TH_WB220 
@@ -293,23 +275,14 @@ Fig 12. MeshVines_RE_TH_WB220
 MeshVines_RE_TH_WB220 is mainly used as an end node in the Zigbee mesh network, and can measure temperature and humidity.
 
 MeshVines_RE_TH_WB220 has the following features:
-
 * CR2032 Battery
-
 * Inverted-F 2.4 GHz PCB trace antenna
-
 * Commission and Reset buttons
-
 * Power status LED
-
 * Switch to select the input power supply
-
 * 2 x 5.5 mm barrel connector for 5 V input
-
 * HDC1080 for temperature and humidity measurement
-
 * Low power architecture for maximizing battery life
-
 * Polycase enclosure SN-21 or SN-22
 
 #### 3.1.3	MeshVines_C_W
@@ -321,15 +294,10 @@ Fig 13. MeshVines_C_W
 MeshVines_C_W is used as the coordinator in the Zigbee mesh network, and is designed to fit into the header pins of a BeagleBone Black (BBB).
 
 MeshVines_C_W has the following features:
-
 * Header pins to fit onto BeagleBone Black
-
 * uFL connector for 2.4 GHz antenna
-
 * Commission, Clear and Reset buttons
-
 * LED for commissioning countdown
-
 * LED for indication of received packets
 
 #### 3.1.4	MeshVines_R_TH_WB5200
@@ -341,17 +309,11 @@ Fig 14. MeshVines_R_TH_WB5200
 In an industrial environment such as a winery, one cannot rely on a conveniently placed outlet to power a Zigbee router.  Therefore, MeshVines_R_TH_WB5200 was created to allow a router to be powered off battery for up to 2 months.  If an uninterruptible power supply is used for the Zigbee coordinator, then the entire network can run independently of the building's infrastructure.  In the event of a power outage or network disruption, the coordinator can buffer data locally until the power or network disruption is resolved.
 
 MeshVines_R_TH_WB5200 has the following features:
-
 * 2 x 18650 battery holders in parallel
-
 * 2 x 5.5 mm barrel connector for 5 V input
-
 * Side mount PCB SMA connector for 2.4 GHz antenna
-
 * Commission, Clear and Reset buttons
-
 * Switch to select the input power supply
-
 * Power indicator LED
 
 ## 4	Implementation Results and Characterization
