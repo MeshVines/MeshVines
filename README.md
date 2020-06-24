@@ -184,7 +184,7 @@ The inverted F antenna design was first simulated using HFSS and tuned to have a
 
 This antenna design was simulated to have the following directivity patterns, with a radiation efficiency of 63%. In design, a coordinate system was arbitrarily chosen with Z normal to the face of the board, Y parallel to the antenna, and X towards the center of the board.
 
-![image alt text](images/image_XZ_directivity.jpg)
+![image alt text](images/XZ_directivity.png)
 
 Fig 10. XZ Plane Directivity (dB)
 
