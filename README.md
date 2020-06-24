@@ -180,6 +180,16 @@ Once the data collected by fledge, the fledge-north-omf plugin would send the da
 
 ### 2.5	Antenna Design
 
+The inverted F antenna design was first simulated using HFSS and tuned to have a peak operating point of 2.4 GHz using appropriate board size and thickness. This design was chosen for its compact size and ease of final implementation, along with decent power delivery and somewhat isotropic radiation patterns. Return loss at 2.4 GHz was simulated to be -38 dB. 
+
+This antenna design was simulated to have the following directivity patterns, with a radiation efficiency of 63%. In design, a coordinate system was arbitrarily chosen with Z normal to the face of the board, Y parallel to the antenna, and X towards the center of the board.
+
+![image alt text](images/image_XZ_directivity.jpg)
+
+Fig 10. XZ Plane Directivity (dB)
+
+After the boards were printed, return loss measurements were taken on the antenna. These showed performance shifting up approximately 100 MHz from the simulation. Ultimately, the return loss and overall system behavior was determined to be adequate for this project.
+
 ![image alt text](images/image_11.jpg)
 
 Fig 10.  S11: Simulated vs. Measured
